@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-image: url(Flowerboy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+h1, p {
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    
+}
+
+form{
+    background-color: rgba(202, 116, 36, 0.9);
+    margin: auto;
+    width: 750px;   
+    height: 1100px;
+    font-family: cursive;
+    font-size: large;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(255, 82, 168);
+}
+
+#dicription {
+    color: rgb(255, 147, 45);
+}
+
+.Info {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 315px;
+    font-size: 16px;
+    padding-top: 4px;
+    margin: 10px 60px;
+    border-radius: 10px;
+    border: none;
+    text-align: start;
+    background-color: rgba(250, 176, 225, 0.63);
+}
+
+.lable {
+    padding-left: 10px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+fieldset {
+    border: none;
+    padding-top: 75px;
+    margin-bottom: 75px;
+    align-items: center;
+}
+
+.recomend {
+    margin-left: 78px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    position: relative;
+    padding: 10px 40px;
+    margin-left: 45%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(252, 147, 199);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    background-color: #ffffff;
+    color: rgb(255, 82, 168);
+}
+
+* {
+    box-sizing: content-box;
+}
+
+div {
+    width: 500px;
+}
+
+#dropdown {
+    transition: 0.5s;
+}
+
+@media (max-width: 700px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        
+    }
+}

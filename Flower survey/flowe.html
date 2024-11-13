@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title> Kelley's Flowers survey form</title>
+  </head>
+  <body>
+    <h1 id="title"><em>Kelley's Flowers survey</em></h1>
+    <p id="dicription">Tell us how we can further blossom your garden</p>
+    
+    <form id="survey-form">
+      <fieldset>
+        <div>
+          <label class="lable" id="name-label" for="name">Name</label>
+          <input class="Info" type="text" id="name" placeholder="Enter your Name">
+        </div>
+        <div>
+          <label class="lable" id="surname-label" for="surname">Surname</label>
+          <input class="Info" type="text" id="surname" placeholder="Enter your Surname" required>
+        </div>
+        <div>
+         <label class="lable" id="email-lable" for="email">Email</label>
+         <input class="Info" type="email" id="email" placeholder="Enter your Email" required>
+        </div>
+        <div>
+          <label class="lable" id="number-lable" for="number">Phone number</label>
+          <input class="Info" type="tel" id="number" placeholder="Number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+        </div>
+        <div>
+          <label class="lable" for="dropdown">What are your favourite Flowers
+              <select class="Info" name="flowers" id="dropdown">
+                 <option value="dandilion">Dandilions</option>
+                 <option value="roses">Roses</option>
+                 <option value="violets">Violets</option>
+                 <option value="daisy">Daisy</option>
+                 <option value="sunFlowers">Sun Flowers</option>
+             </select>
+          </label>
+        </div>
+        <label class="recomend" >Would you recomend our shop to a friend</label>
+        <div>
+          <label class="recomend" for="recomend-yes">
+             <input id="recomend-yes" type="radio" name="yes" value="yes">Yes
+          </label>
+        </div>
+        <div>
+          <label class="recomend" for="recomend-no">
+             <input id="recomend-no" type="radio" name="no" value="no">No
+          </label>
+        </div>
+        <div>
+          <label class="recomend" for="recomend-maybe">
+              <input id="recomend-maybe" type="radio" name="maybe" value="maybe">Maybe
+          </label>
+        </div>
+        <label class="recomend"> Which flowers are you elerggic to? </label>
+            <div class="recomend">
+              <input value="dandilions" type="checkbox"><label> Dandilions</label>
+            </div>
+            <div class="recomend">
+              <input value="rose" type="checkbox"> Roses
+            </div>
+            <div class="recomend">
+              <input value="violets" type="checkbox"> Violet
+            </div>
+            <div class="recomend"> 
+              <input value="daisys" type="checkbox"> Daisy
+            </div>
+            <div class="recomend">
+              <input value="sunFlower" type="checkbox"> Sun Flowers
+            </div>  
+       <label class="recomend" for="massage">Send us Feedback so we can help you:</label>
+       <textarea class="Info" id="massage" cols="30" rows="10" placeholder="Type your massage here"></textarea>
+       <div></div>
+       <input class="submit" type="submit" id="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>

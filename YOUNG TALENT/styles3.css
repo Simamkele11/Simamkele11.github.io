@@ -1,0 +1,275 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.intro-page {
+    background-image:url("christopher-burns-Wiu3w-99tNg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    text-decoration-color: white;
+}
+
+
+/*Transition*/
+
+a, .botton {
+    transition: all 300ms ease;
+}
+
+/*Desctop Nev*/
+
+nav, .navbord {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    background-color: rgba(0, 255, 255, 0.452);
+}
+
+.navbord  li {
+    margin: 1.2rem;
+    list-style: none;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+h1 {
+    color: #ffffff;
+
+}
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+}
+
+a:hover::after {
+    width: 100%;
+    font-size: 55px;
+}
+a::after {
+    color:rgb(248, 120, 1);
+    box-shadow: 2rem;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(248, 120, 1);
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+.intro-text {
+    position: relative;
+    padding-top: 40vh;
+    padding-bottom: 28vh;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+
+}
+
+.botton {
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1.5px solid #ffffff;
+    color: white;
+    background: transparent;
+    margin: 20px 0;
+}
+
+.botton:hover {
+    background-color:rgb(0, 225, 255) ;
+    border: none;
+    box-shadow: 3rem;
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+}
+
+#courses, .intro-page {
+    gap: 2.2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.p-int {
+    color: rgb(248, 120, 1);
+}
+
+nav .fa {
+    display: none;
+}
+
+@media(max-width: 700px) {
+    h1{
+        font-size: 20px;
+    }
+
+    .navbord li {
+        display: block;
+    }
+
+    nav div {
+        position: absolute;
+        background: rgb(248, 120, 1);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2 ;
+        transition: 1s;
+    }
+
+    nav .fa {
+         display: block;
+         color: #ffffff;
+         margin: 10px;
+         font-size: 22px;
+         cursor: pointer;
+    }
+
+    .navbord ul {
+        padding: 10px;
+    }
+}
+
+.info {
+    color: gray;
+}
+
+.course-intro {
+    text-align: center;
+    margin: 2rem;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+.course-contaner, .course-details {
+    display: flex;
+}
+
+.course-details {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.course-contaner {
+    display: inline-block;
+    border: 1px solid rgb(3, 243, 252);
+    padding: 2rem 2rem;
+    background: rgb(255, 255, 255);
+    vertical-align: middle;
+    border-radius: 2rem;
+    max-width: 200px;
+}
+
+.course-blocks {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 2rem;
+    
+}
+
+.about-intro {
+    text-align: center;
+    margin: 2rem;
+}
+
+.pic-contaner{
+    height: 400px;
+    width: 500px;
+
+}
+
+.pic-block {
+    width: 300px;
+    height: 400px; 
+    border-radius: 2rem; 
+}
+
+.about-contaner {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.about-details {
+    height: 400px;
+    width: 500px;
+}
+
+.contact-intro {
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.contact-contaner {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.contact-form {
+    height: 400px;
+    width: 500px;
+}
+
+.contact-details {
+    height: 400px;
+    width: 500px;
+}
+
+form, fieldset {
+    height: 500px;
+}
+

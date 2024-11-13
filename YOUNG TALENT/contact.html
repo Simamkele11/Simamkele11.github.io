@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="hamburg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section class="about-header2">
+        <nav>
+            <a class="logo" href="index2.html">Young Talent</a>
+            <div class="navbord" id="navBord">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>  
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box2">
+            <h1>Contact Us</h1>
+            <p>If you have any questins or need more infomation, feel free to contact us here  </p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icons">
+                        <img src="img/Phone2.png" alt="phone" >
+                    </div>
+                    <div class="text">
+                        <h2>Contact Number:</h2>
+                        <p>069-427-6217</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <img src="Email2.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Email Address:</h2>
+                        <p>youngtalent@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <img src="img/location.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Postal Address:</h2>
+                        <p>992 MAYIBUYE, MIDREND <br>
+                        COMMERCIA EXT 34, <br>JOHANNESBURG, 1685
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="containerForm">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <h2>Send me a massage</h2>
+                    <input type="hidden" name="access_key" value="8b6faa8a-9f48-4e86-bffe-36c5b252eff0">
+                    <div class="inputBox">
+                        <input type="text" name="name" required>
+                        <span>Enter Your Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" required>
+                        <span>Enter Your Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="text" id="massage" required></textarea>
+                        <span>Type your massage here...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section> 
+
+
+  
+
+<!--FOOTER-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <P> Young Talent, where tradition meets innovation in the art of craftsmanship. <br> Our Recruitment stands at the forefront of technical education, specializing in welding, boiler making, and carpentry.</P>
+        <div class="icons">
+            <img src="img/facebook icon.png" alt="face">
+            <img src="img/Linkedin icon.png" alt="Link">
+            <img src="img/pngegg.png" alt="what">
+        </div>
+        <p>Made by Sima Sokoyi</p>
+        
+    </section>
+
+
+
+
+
+
+
+    <script src="ham.js"></script>
+</body>
+</html>
