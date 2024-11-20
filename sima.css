@@ -24,6 +24,10 @@
     --color-type9: rgb(255, 231, 203);
 }
 
+body {
+    background-color:  var(--color-type8);
+}
+
 .logo {
     font-size: 25px;
     color: var(--color-type2);
